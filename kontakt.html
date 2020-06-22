@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ELMM</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="page-container">
+ 
+  <div class="menuSnd">
+   <div class="menu-items">
+    <a href="index.html"><div class="logo"></div></a>
+    <ul>
+        <a href="index.html"><li>Početna</li></a>
+        <a href="usluge.html"><li>Usluge</li></a>
+        <a href="radovi.html"><li>Radovi</li></a>
+        <a href="kontakt.html"><li>Kontakt</li></a>
+    </ul>
+   </div>
+  </div>
+  <div class="mobileMenu">
+   <div class="topMenu">
+    <div class="mobileLogo"><img src="images/logoee.png" width="150" height="80" /></div>
+    <div class="menuLines">
+    <div class="lines">
+    <input type="checkbox" id="menuToggle" />
+    <span></span>
+    <span></span>
+    <span></span>
+    </div>
+    </div>
+   </div>
+   <div class="botMenu">
+    <div class="mobileItems">
+    	<ul>
+    	  <a href="index.html"><li>Početna</li></a>
+    	  <a href="usluge.html"><li>Usluge</li></a>
+    	  <a href="radovi.html"><li>Radovi</li></a>
+    	  <a href="kontakt.html"><li>Kontakt</li></a>
+    	</ul>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $("#menuToggle").click(function(){
+       $(".botMenu").fadeToggle("fast");
+    });
+
+  });
+  </script>
+
+  <div class="space"></div>
+   <div class="contact-header">
+    <div class="contact-overlay">
+     <div class="contact-title"><h1>Kontakt</h1></div>
+     <div class="contact-breadcrumbs"><p>Početna &rarr; <span>Kontakt</span></p></div>
+    </div>
+  </div> 
+  <div class="contact-wrapper">
+  <div class="contact-left">
+        <h4>Kontaktirajte nas</h4>
+        <div class="contactLeft">
+        <div class="contactData">
+        <div class="contactIconWrapper">
+          <div class="contactIcon">
+            <img src="icons/mail.png" />
+          </div>
+          </div>
+          <br>
+          <div class="contactInfo">
+            <p>
+            info@elmmatic.hr<br><br>
+            ljiljana@elmmatic.hr<br><br>
+            marijan@elmmatic.hr</p>
+          </div>
+        </div>
+       <div class="contactData">
+       <div class="contactIconWrapper">
+          <div class="contactIcon">
+            <img src="icons/phone.png" />
+          </div>
+          </div>
+          <div class="contactInfo">
+          <br>
+            <p>Tel: 095/8142391<br><br>
+               Tel: 042/641-679</p>
+          </div>
+        </div>
+        <div class="contactData">
+        <div class="contactIconWrapper">
+          <div class="contactIcon">
+            <img src="icons/mapp.png" />
+          </div>
+          </div>
+          <div class="contactInfo">
+            <br>
+            <p>Marofska 9, Kućan Marof,<br> Varaždin, Hrvatska</p>
+          </div>
+        </div>
+        </div>
+     </div>
+  <div class="contact-right">
+  <div class="formLeft">
+   <h4>Pošaljite upit</h4>
+     <div class="contact-form">
+   
+       <form>
+       <input type="text" name="uname" class="contactInput-text" placeholder="Vaše ime" required />
+       <p></p>
+       <input type="number" name="uphone" class="contactInput-text" placeholder="Vaš broj telefona" />
+       <p></p>
+       <input type="email" name="umail" class="contactInput-text" placeholder="Vaše e-mail" required />
+       <p></p>
+       <textarea name="umessage" class="contactMessage" placeholder="Upit" required></textarea>
+       <div id="msgBtn"> 
+       <input type="submit" class="msgBtn" name="send" value="Pošalji" /> 
+       </div>
+       </form>
+     </div>
+  </div>
+  <div class="formRight">
+    <div class="contactDataInfo">
+          
+          <div class="contactInfo">
+          <h5>Informacije o poduzeću</h5>
+            <p>
+              ELMMATIC društvo s ograničenom odgovornošću za izradu električnih razvodnih ormara<br>
+              Sjedište: HR-42000 VARAŽDIN, Kućan Marof, Marofska 9<br><br>
+              Društvo je upisano u sudski registar Trgovačkog suda u Varaždinu s oznakom u glavnoj knjizi<br>
+              Tt – 19/3837-2<br>
+              MBS: 070107682<br>
+              OIB (VAT ID): 55337959622<br>
+              MB: 2977559<br>
+              Temeljni kapital društva iznosi: 20.000,00 kuna<br>
+              Poslovna banka: Erste &amp;amp; Steiermarkische bank d.d.<br>
+              IBAN: HR2124020061100647495<br><br>
+              Uprava: <br>
+              Ljiljana Kolar Milković direktor, OIB 52542623372, zastupa društvo pojedinačno i samostalno<br>
+              Marijan Milković, prokurist OIB 10060883732, pojedina prokura<br><br>
+              Osnivači/članovi društva: :<br>
+              Ljiljana Kolar Milković, OIB 52542623372, Kućan Marof, Marofska 9, Varaždin – član društva<br>
+              Marijan Milković, OIB 10060883732, Kućan Marof, Marofska 9, Varaždin – član društva<br><br>
+            </p>
+          </div>
+          </div>
+  </div>
+  </div>
+  </div>
+      <div id="map"></div>
+
+ <footer>
+         <div class="f-about">
+         <h4>O nama</h4>
+         <br>
+          <p>ELMMATIC d.o.o Varaždin je tvrtka sa dugogodišnjim iskustvom koja svojim
+            klijentima pruža sve vrste elektro usluga: elektroinstalacije, sve vrste rasvjeta,
+            hitne i brze intervencije, izrada razvodnih ormara svih vrsta.
+            <br>
+            <br>
+            <a href="izjava-o-zastiti-osobnih-podataka.html" style="color:white;text-decoration:underline;">Izjava o zaštiti osobnih podataka</a>
+          </p>
+
+         </div>
+         <div class="f-navigation">
+          <h4>Navigacija</h4>
+          <br>
+          <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="usluge.html">Usluge</a></li>
+            <li><a href="radovi.html">Radovi</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+          </ul>
+         </div>
+         <div class="f-contact">
+         <h4>Kontakt</h4>
+         <br>
+          <p>
+          <img src="icons/phone.png" width="20" height="20" />&nbsp;095/8142391<br>
+          <img src="icons/mail.png" width="20" height="20" />&nbsp;info@elmmatic.hr<br>
+          <img src="icons/mapp.png" width="20" height="20" />&nbsp;Marofska 9, Kućan Marof, Varaždin<br>
+          </p>
+         </div>
+      </footer>
+      <div class="copyright">
+        <img src="images/logoee.png" width="100" height="50" />
+        <p>Copyright &copy; 2020 ELMMATIC d.o.o.</p>
+      </div>
+   </div>
+<script src="js/aos.js"></script>
+<script src="js/location.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCRDkkdKgJv1Tg_roHzbIf6lohaS182R8&callback=initMap"></script>
+</body>
+</html>
